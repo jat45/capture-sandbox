@@ -1,0 +1,41 @@
+# MSVC user options
+*.suo
+**/.vs/
+
+# MSVC database
+*.sdf
+*.opensdf
+*.VC.opendb
+*.VC.db
+
+# Per user project settings
+*.csproj.user
+*.vcproj.user
+*.vcxproj.user
+
+# Microsoft toolchain intermediates (LEGACY)
+**/obj/Release/
+**/obj/Debug/
+
+# Microsoft toolchain outputs (LEGACY)
+**/bin/Release/
+**/bin/Debug/
+
+# Microsoft toolchain intermediates
+**/MSVC/obj/
+
+# Microsoft toolchain outputs
+**/MSVC/bin/
+
+# NuGet packages
+packages/*
+
+# Generated files
+*.generated.cs
+
+# Resharper user preferences
+*.sln.Dotsettings.user
+
+# NUnit test results
+*.Tests.mdf
+*.Tests_log.ldf
